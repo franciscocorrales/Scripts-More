@@ -6,6 +6,6 @@ Personal Lists of Scripts, Tips, Tricks &amp; More
 # Document List
 
 
-[JavaScript](../blob/master/javascript)
+[JavaScript](../main/javascript.md)
 
-[Git](./git)
+[Git](../main/git.md)
