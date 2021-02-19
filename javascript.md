@@ -1,6 +1,11 @@
 
 # JavaScript
 
+## References
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+
 
 
 const numbers = [2, 6, 7, 8, 1];
