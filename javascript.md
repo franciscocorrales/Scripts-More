@@ -87,6 +87,19 @@ const user = {... userBasic, ... userMoreInfo};
 - every: Got an array and want to test if a given condition is met in every element?
 - some: Test if at least one element matches our boolean function.
 
+### Edit/Resend Browser Request
+
+In the Network tab. Right click to the sent request. Select "Copy as Node.js fetch". Paste that in your Console and add the following code before running.
+```js
+  .then(response => response.json())
+  .then(data => console.log(data));
+```
+Example:
+```js
+fetch('http://example.com/movies.json', {options})
+  .then(response => response.json())
+  .then(data => console.log(data));
+```
 
 
 
