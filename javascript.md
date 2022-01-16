@@ -83,11 +83,15 @@ const user = {... userBasic, ... userMoreInfo};
 
 Clone Array shallow
 
-```let clonedArray = [...array];```
+```js
+let clonedArray = [...array];
+```
 
 Clone Array deep
 
-```let cloneArray = JSON.parse(JSON.stringify(array));```
+```js
+let cloneArray = JSON.parse(JSON.stringify(array));
+```
 
 ####  Looping Functions
 
