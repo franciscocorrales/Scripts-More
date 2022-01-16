@@ -79,7 +79,17 @@ const user = {... userBasic, ... userMoreInfo};
 
 ### Nullish Coalescing Operator
 
-### Array Looping Functions
+### Arrays
+
+Clone Array shallow
+
+```let clonedArray = [...array];```
+
+Clone Array deep
+
+```let cloneArray = JSON.parse(JSON.stringify(array));```
+
+####  Looping Functions
 
 - map: applying a function over every element and then returning the new array.
 - reduce: The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
