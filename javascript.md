@@ -77,7 +77,15 @@ const user = {... userBasic, ... userMoreInfo};
 
 ### Optional Chaining 
 
+```js
+let customerCity = customer.details?.address?.city;
+```
+
 ### Nullish Coalescing Operator
+
+```js
+const valB = emptyText ?? "default for B";
+```
 
 ### Arrays
 
