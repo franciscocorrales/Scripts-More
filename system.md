@@ -1,5 +1,11 @@
 # System
 
+### Get process list
+
+```js
+ps
+```
+
 ### Process in port
 
 ```js
