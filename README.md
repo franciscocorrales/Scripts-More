@@ -10,4 +10,4 @@ Personal Lists of Scripts, Tips, Tricks &amp; More
 
 [Git](../main/git.md)
 
-[System](../main/system.md)
+[Shell CLI](../main/shell.md)
